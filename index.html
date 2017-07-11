@@ -1,0 +1,60 @@
+<html>
+
+
+<head>
+   <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+<form action="/action_page.php">
+  First name:<br>
+  <input type="text" name="firstname" value="">
+  <br>
+  Last name:<br>
+  <input type="text" name="lastname" value="">
+  <br>
+  K9 Name:<br>
+  <input type="text" name="k9" value="">
+  <br><br>
+<hr>
+</form>
+
+<form action="/action_page.php">
+<br>
+Date:
+<input type="date" name="date">
+<script>
+   document.getElementById('date').value = (new Date()).format("m/dd/yy");
+</script>
+<br>
+Time:
+<input type="time" name="time">
+<br>
+
+  <br>
+    Type of food?
+    <input type="text" name="typeoffood" value="">
+    <br>
+    <br>
+    Food amount?
+    <input type="text" name="amountfood" value="">
+</form>
+  <br>
+  <hr>
+   <input type="submit" value="Submit">
+   <br>
+   <br>
+   <input type="print" value="Print">
+
+
+
+
+
+
+
+</body>
+
+
+
+
+</html>
